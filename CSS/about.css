@@ -1,0 +1,25 @@
+.about-us {
+    border-top: 2px solid black;
+    border-bottom:2px solid black ;
+    padding: 60px 0;
+  }
+  
+  .about-us h1 {
+    color: #1c43cf;
+  }
+  
+  .about-us h3 {
+    color: #1c43cf;
+    margin-bottom: 15px;
+  }
+  
+  .about-us p {
+    color: #1d0303;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  
+  .about-us img {
+    border: 2px solid #1c43cf;
+  }
+  

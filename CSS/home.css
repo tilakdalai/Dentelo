@@ -1,0 +1,106 @@
+.Welcome {
+  display: flex;
+  background-image: url("/img/background_home.png");
+  width: 100%;
+  height: 680px;
+  border-top: 2px solid black;
+}
+.welcoming {
+  width: 50%;
+  padding-top: 270px;
+  padding-left: 110px;
+  color: rgb(5, 10, 33);
+  text-align: center;
+  line-height: 200px;
+}
+.welcoming2 {
+  width: 50%;
+  padding-left: 20px;
+  img {
+    width: 32vw;
+  }
+  line-height: 200px;
+}
+#button-addon2 {
+  background-color: dodgerblue;
+  color: antiquewhite;
+}
+#st {
+  background-color: rgb(168, 196, 237);
+}
+#line {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.parent1 {
+  display: flex;
+  width: 100%;
+}
+.box1 {
+  margin: 10px 50px 20px 50px;
+  background-color: rgb(168, 196, 237);
+}
+.box1 :hover {
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  transition: box-shadow 1s ease;
+  img,
+  h5,
+  p,
+  span,
+  svg {
+    box-shadow: none;
+  }
+}
+.box2 :hover {
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  transition: box-shadow 1s ease;
+  img,
+  h5,
+  p,
+  span,
+  svg {
+    box-shadow: none;
+  }
+}
+.box2 {
+  margin: 10px 50px 20px 50px;
+  background-color: rgb(168, 196, 237);
+}
+
+#Services {
+  text-align: center;
+  color: dodgerblue;
+}
+#p {
+  padding: 10px 120px 20px 220px;
+  background-color: rgb(168, 196, 237);
+}
+@media (max-width: 768px) {
+  .Welcome {
+    flex-direction: column;
+    height: auto;
+  }
+  .welcoming {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  .welcoming2 img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+  #st {
+    padding: 20px;
+  }
+  #Services {
+    font-size: 1.5em;
+  }
+  .box1,
+  .box2 {
+    width: 100%;
+    margin: 10px 0;
+  }
+}

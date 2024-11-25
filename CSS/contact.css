@@ -1,0 +1,33 @@
+.contact-us {
+   border-top: 2px solid black;
+   border-bottom: 2px solid black;
+    padding: 60px 0;
+  }
+  
+  .contact-us h1 {
+    color: #1c43cf;
+  }
+  
+  .contact-us h3 {
+    color: #1c43cf;
+    margin-bottom: 15px;
+  }
+  
+  .contact-us p, .contact-us ul {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  
+  .contact-us .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .contact-us .social-icons img {
+    width: 100%;
+    height: auto;
+  }
+  
